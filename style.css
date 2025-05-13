@@ -1,0 +1,34 @@
+/* बॉडीला मध्यभागी ठेवण्यासाठी स्टाइल */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  transition: background-color 0.5s ease;
+}
+
+/* मुख्य कंटेनर */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* रंग व बटण असलेला बॉक्स */
+.color-box {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* बटण स्टाइल */
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  background: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
